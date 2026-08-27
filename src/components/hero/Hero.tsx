@@ -29,7 +29,6 @@ export function Hero({ couple, backgroundImageUrl }: HeroProps) {
       <div className="divider-line hero-divider-outro" />
 
       <div className="date-banner">
-        <span className="year">{couple.year}</span>
         <p className="date-text">{couple.dateLabel}</p>
       </div>
 
