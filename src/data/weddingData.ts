@@ -66,15 +66,17 @@ export const VENUES: Venue[] = [
   },
 ];
 
+const imagePath = (file: string) => `${import.meta.env.BASE_URL}images/${file}`;
+
 export const GALLERY_IMAGES: GalleryImage[] = [
-  { src: '/images/01.jpeg', alt: 'Foto1', caption: 'El comienzo' },
-  { src: '/images/03.jpeg', alt: 'Foto3', caption: 'Para siempre' },
-  { src: '/images/04.jpeg', alt: 'Foto4', caption: 'Nuestra historia' },
-  { src: '/images/06.jpeg', alt: 'Foto5', caption: 'Siempre juntos' },
-  { src: '/images/07.jpeg', alt: 'Foto7', caption: 'Momentos' },
-  { src: '/images/08.jpeg', alt: 'Foto8', caption: 'Bellos' },
-  { src: '/images/09.jpeg', alt: 'Foto9', caption: 'Selfie' },
-  { src: '/images/10.jpeg', alt: 'Foto10', caption: 'Sin filtros' },
+  { src: imagePath('01.jpeg'), alt: 'Foto1', caption: 'El comienzo' },
+  { src: imagePath('03.jpeg'), alt: 'Foto3', caption: 'Para siempre' },
+  { src: imagePath('04.jpeg'), alt: 'Foto4', caption: 'Nuestra historia' },
+  { src: imagePath('06.jpeg'), alt: 'Foto5', caption: 'Siempre juntos' },
+  { src: imagePath('07.jpeg'), alt: 'Foto7', caption: 'Momentos' },
+  { src: imagePath('08.jpeg'), alt: 'Foto8', caption: 'Bellos' },
+  { src: imagePath('09.jpeg'), alt: 'Foto9', caption: 'Selfie' },
+  { src: imagePath('10.jpeg'), alt: 'Foto10', caption: 'Sin filtros' },
 ];
 
 export const DRESS_CODE_SWATCHES: ColorSwatchData[] = [
