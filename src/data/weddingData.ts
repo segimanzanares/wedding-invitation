@@ -14,6 +14,7 @@ export const COUPLE: CoupleInfo = {
   families: 'La Familia González & La Familia Gallardo',
   rsvpDeadlineLabel: '1 de noviembre de 2026',
   footerDateLabel: '21 · XI · 2026',
+  rsvpWhatsappNumber: '523321852205',
 };
 
 export const EVENT_DETAILS: DetailCardData[] = [

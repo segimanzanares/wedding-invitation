@@ -14,7 +14,7 @@ const ATTENDANCE_OPTIONS: { value: AttendanceStatus; label: string }[] = [
 ];
 
 export function RsvpSection({ couple }: RsvpSectionProps) {
-  const { form, setField, isSubmitted, handleSubmit } = useRsvpForm();
+  const { form, setField, isSubmitted, handleSubmit } = useRsvpForm(couple.rsvpWhatsappNumber);
 
   return (
     <div className="rsvp-section">
