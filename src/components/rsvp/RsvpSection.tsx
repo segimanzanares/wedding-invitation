@@ -34,13 +34,6 @@ export function RsvpSection({ couple }: RsvpSectionProps) {
               value={form.name}
               onChange={(event) => setField('name', event.target.value)}
             />
-            <input
-              className="rsvp-input"
-              type="email"
-              placeholder="Correo electrónico"
-              value={form.email}
-              onChange={(event) => setField('email', event.target.value)}
-            />
             <div className="rsvp-radio-group">
               {ATTENDANCE_OPTIONS.map((option) => (
                 <div

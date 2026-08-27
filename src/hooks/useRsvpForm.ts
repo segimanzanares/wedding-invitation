@@ -40,8 +40,8 @@ export function useRsvpForm(whatsappNumber: string) {
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    if (!form.name.trim() || !form.email.trim()) {
-      window.alert('Por favor complete su nombre y correo.');
+    if (!form.name.trim()) {
+      window.alert('Por favor complete su nombre.');
       return;
     }
     const message = buildWhatsappMessage(form);
