@@ -1,3 +1,4 @@
+import { Envelope } from './components/envelope/Envelope';
 import { PageOrnamentBorder } from './components/layout/PageOrnamentBorder';
 import { FloatingPetals } from './components/hero/FloatingPetals';
 import { Hero } from './components/hero/Hero';
@@ -21,6 +22,7 @@ import {
 function App() {
   return (
     <>
+      <Envelope couple={COUPLE} />
       <PageOrnamentBorder />
       <FloatingPetals />
       <Hero couple={COUPLE} />
