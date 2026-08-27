@@ -67,13 +67,14 @@ export const VENUES: Venue[] = [
 ];
 
 export const GALLERY_IMAGES: GalleryImage[] = [
-  { src: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=900&q=80', alt: 'Nuestra boda', caption: 'El comienzo' },
-  { src: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&q=80', alt: 'Ramo de flores', caption: 'Detalles florales' },
-  { src: 'https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&q=80', alt: 'Anillos', caption: 'Para siempre' },
-  { src: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=80', alt: 'Ceremonia', caption: 'La ceremonia' },
-  { src: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=900&q=80', alt: 'Celebración', caption: 'La celebración' },
-  { src: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&q=80', alt: 'Pareja', caption: 'Nuestra historia' },
-  { src: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80', alt: 'Decoración', caption: 'Decoración' },
+  { src: '/images/01.jpeg', alt: 'Foto1', caption: 'El comienzo' },
+  { src: '/images/03.jpeg', alt: 'Foto3', caption: 'Para siempre' },
+  { src: '/images/04.jpeg', alt: 'Foto4', caption: 'Nuestra historia' },
+  { src: '/images/06.jpeg', alt: 'Foto5', caption: 'Siempre juntos' },
+  { src: '/images/07.jpeg', alt: 'Foto7', caption: 'Momentos' },
+  { src: '/images/08.jpeg', alt: 'Foto8', caption: 'Bellos' },
+  { src: '/images/09.jpeg', alt: 'Foto9', caption: 'Selfie' },
+  { src: '/images/10.jpeg', alt: 'Foto10', caption: 'Sin filtros' },
 ];
 
 export const DRESS_CODE_SWATCHES: ColorSwatchData[] = [
